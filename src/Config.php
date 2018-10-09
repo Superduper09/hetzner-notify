@@ -4,7 +4,7 @@ namespace HetznerNotify;
 
 class Config
 {
-    const CONFIG_FILE = 'config.php';
+    const CONFIG_FILE = '/opt/hetzner-notify/config.php';
     protected $_config = array();
 
     public function __construct($loadConfig = false)
